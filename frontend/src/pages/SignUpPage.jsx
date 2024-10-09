@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Input from "../components/Input";
 import { User, Mail, Lock, Loader } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import PasswordStrengthMeter from "../components/passwordStrengthMeter";
+import PasswordStrengthMeter from "../components/PasswordStrengthMeter";
 import { useAuthStore } from "../store/AuthStore";
 
 const SignUpPage = () => {
